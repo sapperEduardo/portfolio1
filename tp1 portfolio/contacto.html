@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Portfolio de Seba</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+    <header>
+        <div class="header-container">
+            <h1>Mi Portfolio</h1>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="contacto.html" class="active">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    
+        
+
+    <div class="contact-message">
+        <h2>¡Envíame un mail!</h2>
+    </div>
+
+    <section class="contact-form">
+        <form action="mailto:tuemail@example.com" method="post" enctype="text/plain">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section class="social-links">
+        <h3>Sígueme en las redes sociales</h3>
+        <ul class="social-skills">
+            <li><a href="https://github.com/tuusuario"><i class="fab fa-github"></i> GitHub</a></li>
+            <li><a href="https://linkedin.com/in/tuusuario"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            <!-- Agrega más enlaces según sea necesario -->
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Seba. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

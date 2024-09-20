@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Seba</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>  
+    <header>
+        <div class="header-container">
+            <h1>Mi Portfolio</h1>
+            <nav>
+                <a href="index.html" class="active">Inicio</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    
+    
+
+    <div class="greeting">
+        <h2>¡Hola, soy Seba!</h2>
+    </div>
+
+    <section class="about-me">
+        <h3>Sobre mí</h3>
+        <div class="about-content">
+            <p>Soy un apasionado desarrollador de software, especializado en Java y Spring Boot. Me encanta resolver problemas complejos y crear soluciones eficientes. En mi tiempo libre, disfruto explorar nuevas tendencias en tecnología y contribuir a proyectos de código abierto. Estoy siempre en busca de nuevos desafíos que me ayuden a crecer profesionalmente.</p>
+            <img src="media/tu-imagen.jpg" alt="Imagen de Seba" class="about-image">
+        </div>
+    </section>
+
+    <section class="skills">
+        <h3>Mis Skills</h3>
+        <ul>
+            <li><i class="fab fa-java"></i> Java</li>
+            <li><i class="fas fa-cogs"></i> Spring Boot</li>
+            <li><i class="fab fa-python"></i> Python</li>
+            <li><i class="fas fa-database"></i> MySQL</li>
+            <li><i class="fas fa-database"></i> SQLite</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Proyectos</h3>
+        <div class="projects">
+
+            <div class="project-card">
+                <img src="media/proyecto1.jpg" alt="Proyecto 1">
+                <h4>API REST</h4>
+                <p>Desarrollada con Java y Spring-Boot. Una pequeña interfaz que se comunica con una base MySQL.</p>
+            </div>
+            <div class="project-card">
+                <img src="media/proyecto2.jpg" alt="Proyecto 2">
+                <h4>AJENDA ELECTRONICA</h4>
+                <p>Desarrollada con Java y la libreria Swing. Una aplicacion de escritorio sencilla y eficaz.</p>    
+            </div>
+            <div class="project-card">
+                <img src="media/proyecto3.jpg" alt="Proyecto 3">
+                <h4>Sync Air</h4>
+                <p>Desarrollada con Java y Spring. Una interfaz web para conectar a un prototipo de Sync Air con su base de datos.</p>
+            </div>
+            <div class="project-card">
+                <img src="media/proyecto4.jpg" alt="Proyecto 4">
+                <h4>costoVentana</h4>
+                <p>Desarrollada con Python y tkinter. Una calculadora rapida de presupuestos para aberturas en aluminio.</p>
+            </div>
+        </div>
+    </section>
+
+
+      <!-- Botón para volver arriba -->
+    <button onclick="scrollToTop()" id="scrollBtn" title="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <footer>
+        <p>&copy; 2024 Seba. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
